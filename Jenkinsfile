@@ -10,7 +10,7 @@ pipeline {
     stage('build') {
       steps {
         sh '''
-          cat index.html
+          cat wait-for-it.sh
         '''
       }
     }
